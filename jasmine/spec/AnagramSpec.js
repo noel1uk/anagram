@@ -39,7 +39,7 @@ describe('Anagram', function() {
 
     describe('.find', function() {
   
-      it('.find', function() {
+      it('finds words that contain the same letters as given work', function() {
         expect(anagram.find('drow')).toEqual(['word']);
       });
     });
