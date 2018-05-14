@@ -40,7 +40,7 @@ describe('Anagram', function() {
     describe('.find', function() {
   
       it('.find', function() {
-        expect(anagram.find('drow')).toEqual('word');
+        expect(anagram.find('drow')).toEqual(['word']);
       });
     });
   });
