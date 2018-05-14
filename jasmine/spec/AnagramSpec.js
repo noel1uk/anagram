@@ -42,6 +42,19 @@ describe('Anagram', function() {
       it('finds words that contain the same letters as given work', function() {
         expect(anagram.find('drow')).toEqual(['word']);
       });
+
+    });
+
+    describe('.reset', function() {
+
+      beforeEach(function() {
+        anagram.reset();
+      });
+
+      it('resets `matchedWords` to empty array', function() {
+        anagram.reset
+        expect(anagram.matchedWords).toEqual([]);
+      });
     });
   });
 
