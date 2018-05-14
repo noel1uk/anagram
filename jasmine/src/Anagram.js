@@ -36,4 +36,8 @@ class Anagram {
       return true;
     }
   }
+
+  reset() {
+    this.matchedWords = [];
+  }
 }
